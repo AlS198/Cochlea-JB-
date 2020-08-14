@@ -16,5 +16,5 @@ for series in range(n // 2):
         matrix[-i - 1][series] = number
         number += 1
     factor += 2
-for i in matrix:
+for i in matrix:   #тут выводиться матрица 
     print(*i)
